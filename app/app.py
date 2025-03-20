@@ -7,7 +7,7 @@ app = Flask(__name__)
 # Global counter
 counter = 0
 
-# إعداد الاتصال بقاعدة البيانات
+
 db_config = {
 "host": "mysql-db",
 "user": os.getenv("MYSQL_USER", "user"),
