@@ -22,8 +22,8 @@ MYSQL_PASSWORD=mypassword
 docker-compose up --build
 
 ## Access the app: 
-http://localhost:5000
-/showcounter
+http://localhost:5000 -
+http://localhost:5000/showcounter
 
 ## Project Structure
 flask-docker/
